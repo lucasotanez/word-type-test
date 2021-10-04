@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>Typing Challenge</title>
+        <meta charset="utf-8"/>
+        <link href='style.css' rel='stylesheet' type='text/css'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+        
+    </head>
+
+    <body>
+
+    <!--<div class='navBar'>
+        <p class='logo'>Typ</p>
+        <a class='navLinks' href='lb.html'>Leaderboard</a>
+    </div>-->
+
+    <div class='normalText'> 
+        <h>Click the button for a word.</h>
+    </div> 
+    
+    <div>
+        <button class='wordButton' id='wordButt'>Word<span></span></button>
+    </div>
+
+    <div id='wordHolder'>
+        <h id='wordText'>-------</h>
+    </div>
+
+    <div class='input'>
+        <input placeholder='type here' id ='inputBox' type='text' onpaste='return false'/>
+    </div>
+
+    <div id='statement'>
+        <p id='stateTime'>0.00 seconds</p>
+    </div>
+
+    </body>
+
+    <script src='script.js'></script>
+</html>

@@ -1,0 +1,107 @@
+body{
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wordButton  {
+  padding: 10px 30px;
+  border-width: 5px;
+  color: #3ca11d;
+  background: none;
+  border-color: #3ca11d;
+  border-radius: 32px;
+  font-size: 2em;
+  transition: 0.25s;
+  margin-top: 50px;
+}
+
+.wordButton:hover  {
+  color: #ea74ee;
+  border-color: #ea74ee;
+  transform: scale(1.05, 1.05);
+
+}
+
+.normalText {
+  margin-top: 7%;
+}
+
+#wordHolder {
+  font-size: 2em;
+  margin-top: 30px;
+  color: #a8a8a8;
+}
+
+#inputBox {
+  border: none;
+  font-size: 2em;
+  text-align: center;
+  border-bottom: 4px solid gray;
+  margin: auto;
+  width: 40%;
+  display: flex;
+  transition: 0.25s;
+  
+  padding: 8px 10px;
+}
+
+#inputBox:hover {
+  background: #f0efef;
+}
+
+#inputBox:focus {
+  outline: none;
+  background: #f0efef;
+  width: 60%;
+  border-bottom: 5px solid gray;
+}
+
+.input {
+  margin-top: 8%;
+}
+
+#statement {
+  margin-top: 10%;
+  font-size: 2em;
+
+}
+
+.tables {
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid springgreen;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.tables tr th {
+  background: #67f53c;
+}
+
+.navBar {
+  background: #313131;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  white-space: nowrap;
+  z-index: 1;
+  margin-bottom:
+}
+
+.logo {
+  color: white;
+  font-size: 2.5em;
+  float: left;
+  margin: 20px 40px;
+}
+
+.navLinks {
+  color: springgreen;
+  float: right;
+  text-decoration: none;
+  margin: 30px 50px;
+}
