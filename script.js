@@ -1,7 +1,8 @@
 const button = document.getElementById("wordButt");
 var words = ['capybara', 'toenail', 'flower', 'computer', 
 'shuttle', 'boolean', 'cigarette', 'hospital', 'ceremony',
-'animate', 'raspberry'];
+'animate', 'raspberry', 'slicing', 'replicate', 'duplicate',
+'nirvana', 'utensil'];
 
 var word = ' '; //word type is string
 
